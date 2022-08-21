@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {  
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+
+    font-family: 'Aboreto', cursive;
+
+}
+
+.banner {
+
+    height: 400px;
+    background-image: url("https://images.alphacoders.com/971/thumb-1920-971290.jpg");
+    background-size: auto;
+}
