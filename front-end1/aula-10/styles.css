@@ -1,0 +1,108 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 80px;
+    padding-top: 20px 40px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    /*position: fixed;
+    width: 100%;
+    z-index: 10;*/
+}
+.main-menu{
+
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    color: white;
+
+}
+
+.main-content{
+
+    display: flex; /*Faz com que a posição das box seja alinhada uma ao lado da outra*/
+    flex-wrap: wrap; /**/
+    justify-content: center;
+    gap: 12px; /*Cria espaçamento entre box*/
+    /*flex-direction: column;*/
+    min-height: 100vh;
+    padding: 40px;
+
+}
+
+.hero-card {
+
+height: fit-content;
+width: 380px;
+background-color:#776b6b;
+/*padding: 2px;*/ /*aqui é feito o espaçamento interno*/
+border-radius: 8px;
+overflow: hidden; /*Propriedade que esconde as arrestas causadas pelo border radius*/
+position: relative;
+
+
+
+}
+
+.hero-card .favourite-icon{
+
+   /* width: 24px;
+    position: relative;
+    top: 40px;
+    left: 20px;*/
+
+    width: 24px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+}
+
+
+.hero-card main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: -75px;
+
+}
+
+.hero-card .background-img {
+
+    width: 100%;
+}
+
+.hero-card .profile-img{
+
+display: block;
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+margin: 0px auto; /*Aqui é feito o espaçamento interno*/
+
+}
+
+.hero-card p{
+
+    /*margin: 0 40px;*/
+    position: relative;
+    text-align: center;
+}
+flooter {
+    background-color: aqua;
+    height: 50px;
+}

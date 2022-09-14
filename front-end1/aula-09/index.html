@@ -1,219 +1,122 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Titulo da Página</title>
+</head>
 
-    <head>
+<body>
 
-        <title>Titulo da Página</title>
+    <h1 class="page-title">Vídeos em alta</h1>
+    <p class="page-description">Veja os vídeos mais acessados da semana</p>
 
-        <style>
+    <section class="videos">
 
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+        <div class="video">
 
-            body {
+            <img class="thumbnail" src="https://picsum.photos/800/500?random=1">
 
-                background-color: #181818;
-                font-family: 'Roboto', sans-serif;
-                margin: 72px 0;
+            <span class="video-time">10:00</span>
 
-            }
+            <h1 class="video-title" >Lorem ipsum dolor</h1>
 
-            .page-title {
+            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
 
-                color: rgb(236, 54, 78);
-                padding-left: 64px;
-                margin-bottom: 6px;
+            <span class="video-views">100k visualizações</span>
 
-            }
+            <time class="video-date" >Há 1 mês</time>
 
-            .page-description {
+        </div>
 
-                padding-left: 64px;
+        <div class="video">
 
-            }
+            <img class="thumbnail" src="https://picsum.photos/800/500?random=2">
 
-            .videos {
+            <span class="video-time">10:00</span>
 
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                margin: 0 auto;
-                gap: 12px;
+            <h1 class="video-title">Lorem ipsum dolor</h1>
 
-            }
+            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
 
-            .video {
+            <span class="video-views">100k visualizações</span>
 
-                width: 30%;
-                height: fit-content;
-                margin-top: 24px;
-                padding: 32px 12px;
-                transition: .5s ease-in-out;
-                cursor: pointer;
+            <time class="video-date">Há 1 mês</time>
 
-            }
+        </div>
 
-            .video:hover {
+        <div class="video">
 
-                transform: scale(1.02);
-                filter: brightness(120%);
+            <img class="thumbnail" src="https://picsum.photos/800/500?random=3">
 
-            }
+            <span class="video-time">10:00</span>
 
-            .thumbnail {
+            <h1 class="video-title">Lorem ipsum dolor</h1>
 
-                width: 100%;
+            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
 
-            }
+            <span class="video-views">100k visualizações</span>
 
-            .video-time {
+            <time class="video-date">Há 1 mês</time>
 
-                color: white;
-                background-color: rgba(0, 0, 0, 0.5);
-                width: fit-content;
-                float: right;
-                padding: 8px 12px;
-                display: block;
-                transform: translateY(-35px);
+        </div>
 
-            }
+        <div class="video">
 
-            .video-title {
+            <img class="thumbnail" src="https://picsum.photos/800/500?random=4">
 
-                margin: 8px 0 12px;
+            <span class="video-time">10:00</span>
 
-            }
+            <h1 class="video-title">Lorem ipsum dolor</h1>
 
-            .video-description {
+            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
 
-                color: rgba(255, 255, 255, 0.6);
-                margin: 0;
+            <span class="video-views">100k visualizações</span>
 
-            }
+            <time class="video-date">Há 1 mês</time>
 
-            .video-views {
+        </div>
 
-                color: rgba(255, 255, 255, 0.6);
-                margin-top: 12px;
-                display: block;
+        <div class="video">
 
-            }
+            <img class="thumbnail" src="https://picsum.photos/800/500?random=5">
 
-            .video-date {
+            <span class="video-time">10:00</span>
 
-                text-align: right;
-                display: block;
+            <h1 class="video-title">Lorem ipsum dolor</h1>
 
-            }
+            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
 
-        </style>
+            <span class="video-views">100k visualizações</span>
 
-    </head>
+            <time class="video-date">Há 1 mês</time>
 
-    <body>
+        </div>
 
-        <h1 class="page-title">Vídeos em alta</h1>
-        <p class="page-description" style="color: rgba(255, 255, 255, 0.6);">Veja os vídeos mais acessados da semana</p>
+        <div class="video">
 
-        <section class="videos">
+            <img class="thumbnail" src="https://picsum.photos/800/500?random=6">
 
-            <div class="video">
+            <span class="video-time">10:00</span>
 
-                <img class="thumbnail" src="https://picsum.photos/800/500?random=1">
+            <h1 class="video-title">Lorem ipsum dolor</h1>
 
-                <span class="video-time">10:00</span>
+            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
 
-                <h1 class="video-title" style="color: white;">Lorem ipsum dolor</h1>
+            <span class="video-views">100k visualizações</span>
 
-                <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
+            <time class="video-date">Há 1 mês</time>
 
-                <span class="video-views">100k visualizações</span>
+        </div>
 
-                <time class="video-date" style="color: rgba(255, 255, 255, 0.4); font-size: 12px;">Há 1 mês</time>
+    </section>
 
-            </div>
-
-            <div class="video">
-
-                <img class="thumbnail" src="https://picsum.photos/800/500?random=2">
-
-                <span class="video-time">10:00</span>
-
-                <h1 class="video-title" style="color: white;">Lorem ipsum dolor</h1>
-
-                <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
-
-                <span class="video-views">100k visualizações</span>
-
-                <time class="video-date" style="color: rgba(255, 255, 255, 0.4); font-size: 12px;">Há 1 mês</time>
-
-            </div>
-
-            <div class="video">
-
-                <img class="thumbnail" src="https://picsum.photos/800/500?random=3">
-
-                <span class="video-time">10:00</span>
-
-                <h1 class="video-title" style="color: white;">Lorem ipsum dolor</h1>
-
-                <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
-
-                <span class="video-views">100k visualizações</span>
-
-                <time class="video-date" style="color: rgba(255, 255, 255, 0.4); font-size: 12px;">Há 1 mês</time>
-
-            </div>
-
-            <div class="video">
-
-                <img class="thumbnail" src="https://picsum.photos/800/500?random=4">
-
-                <span class="video-time">10:00</span>
-
-                <h1 class="video-title" style="color: white;">Lorem ipsum dolor</h1>
-
-                <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
-
-                <span class="video-views">100k visualizações</span>
-
-                <time class="video-date" style="color: rgba(255, 255, 255, 0.4); font-size: 12px;">Há 1 mês</time>
-
-            </div>
-
-            <div class="video">
-
-                <img class="thumbnail" src="https://picsum.photos/800/500?random=5">
-
-                <span class="video-time">10:00</span>
-
-                <h1 class="video-title" style="color: white;">Lorem ipsum dolor</h1>
-
-                <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
-
-                <span class="video-views">100k visualizações</span>
-
-                <time class="video-date" style="color: rgba(255, 255, 255, 0.4); font-size: 12px;">Há 1 mês</time>
-
-            </div>
-
-            <div class="video">
-
-                <img class="thumbnail" src="https://picsum.photos/800/500?random=6">
-
-                <span class="video-time">10:00</span>
-
-                <h1 class="video-title" style="color: white;">Lorem ipsum dolor</h1>
-
-                <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo!</p>
-
-                <span class="video-views">100k visualizações</span>
-
-                <time class="video-date" style="color: rgba(255, 255, 255, 0.4); font-size: 12px;">Há 1 mês</time>
-
-            </div>
-
-        </section>
-
-    </body>
+</body>
 
 </html>
+</html>
+
+   

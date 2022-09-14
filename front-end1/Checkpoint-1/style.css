@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+
+.logo{
+
+    width: 200px;
+}
+
+header {
+        display: flex;
+        list-style: none;
+        font: white;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(65, 61, 61);
+        height: 50px;
+        padding-top: 20px 40px;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 50;
+        font-family: font-family: 'Cinzel', serif;
+        font-size: 24px;
+
+    }
+.main-menu{
+    
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        color: black;
+        /*font-family: font-family: 'Cinzel', serif;*/
+    
+    }
+    
+.main-content{
+    
+        display: flex; /*Faz com que a posição das box seja alinhada uma ao lado da outra*/
+        flex-wrap: wrap; /**/
+        justify-content: center;
+        gap: 12px; /*Cria espaçamento entre box*/
+        /*flex-direction: column;*/
+        min-height: 100vh;
+        padding: 40px;
+    
+    }
+    
+.tupac-card{
+    
+    height: fit-content;
+    width: 380px;
+    background-color:#776b6b;
+    /*padding: 2px;*/ /*aqui é feito o espaçamento interno*/
+    border-radius: 8px;
+    overflow: hidden; /*Propriedade que esconde as arrestas causadas pelo border radius*/
+    position: relative;
+    
+    
+    
+    }
+    
+
+    
+.tupac-card main{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: -75px;
+        display: block;
+        border-radius: 50%;
+        margin: 0px auto; /*Aqui é feito o espaçamento interno*/
+    
+    }
+.tupac-card .background-img {
+    
+        width: 100%;
+    }
+    
+.tupac-card p{
+    
+        /*margin: 0 40px;*/
+        position: relative;
+        text-align: center;
+        font-size: 24px;
+        font-family: font-family: font-family: 'Cinzel', serif;
+    }

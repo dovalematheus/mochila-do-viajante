@@ -1,15 +1,35 @@
+body {
+
+    background-color: #151515;
+}
+
+
 .titulo-primario{
 
-    color: #4d4141;
+    font-size: 24px;
+    color: #f1f7fa86;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.titulo-primario{
+.titulo-secundario{
 
-    background-color: #dadba8;
+    font-size: 24px;
+    color: #d0dee486;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.titulo-primario{
+.titulo-terciario{
 
-    font-size: 30px;
+    font-size: 24px;
+    color:#d0dee486;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.corpo-do-texto {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif
+
 }
